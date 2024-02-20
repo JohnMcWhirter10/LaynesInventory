@@ -1,0 +1,17 @@
+\dt
+SELECT * FROM item_information;
+SELECT * FROM day_sales;
+SELECT * FROM customer_order_breakdown;
+SELECT * FROM menu_item_information;
+SELECT * FROM shipments;
+SELECT * FROM shipment_items;
+SELECT * FROM customer_orders;
+SELECT * FROM day_sales WHERE total_price > 5000;
+SELECT quantity_multiplyer, delivery_method, sold_by_unit FROM item_information;
+SELECT * FROM day_sales WHERE day = 'Sunday';
+SELECT * FROM day_sales WHERE day = 'Monday';
+SELECT * FROM day_sales WHERE day = 'Tuesday';
+SELECT * FROM day_sales WHERE day = 'Wednesday';
+SELECT * FROM day_sales WHERE day = 'Thursday';
+SELECT * FROM day_sales WHERE day = 'Friday';
+SELECT * FROM day_sales WHERE day = 'Saturday';
